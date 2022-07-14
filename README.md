@@ -29,6 +29,8 @@ import pandas as pd
 import numpy as np
 from typing import Any
 from Black_Sholes import generate_weiner_process, simulate_Black_Scholes
+print(simulate_Black_Scholes(100, 0.05, 0.3, 10, 0.5))
+
     #   [out] = Time    Stock Price                
     #       0.0    100.000000
     #       0.5    131.721286
@@ -64,7 +66,7 @@ dt = 0.5
 t = 10
 S = 100
 sigma = 0.3
-bank_end = np.exp(t*r)
+bank_end = np.exp(t*r) # return of the risk-free asset
 nIter = 500000
 result = np.zeros(nIter)
 
@@ -74,9 +76,6 @@ for iter in range(1,nIter):
     result[iter] = martingale
 
 print(np.mean(result))
-
 #   [out] = 99.8743118539787                
 
-
 ```
-
