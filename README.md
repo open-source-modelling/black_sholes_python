@@ -1,5 +1,8 @@
-# Black Sholes model
-Simple Black-Sholes model for simulating the price of a stock.
+<h1 align="center" style="border-botom: none">
+  <b>
+    🐍 Black-Sholes model for simulating the price of a stock.🐍     
+  </b>
+</h1>
 
 ## Problem
 Modelling the stock market is a well researced field. Selecting the right model with its restrictions is a key decision.
