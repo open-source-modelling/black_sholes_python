@@ -1,6 +1,6 @@
 <h1 align="center" style="border-botom: none">
   <b>
-    🐍 Black-Sholes model for simulating the price of a stock.🐍     
+    🐍 Black-Sholes model for simulating the price of a stock🐍     
   </b>
 </h1>
 
